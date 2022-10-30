@@ -26,6 +26,7 @@ def align(template, img, img_points):
     return resizeAndPad(img, RESIZE_H_W)
 
 
+# https://stackoverflow.com/a/44659589
 def resizeAndPad(img, size, pad_color=0):
     h, w = img.shape[:2]
     sh, sw = size
