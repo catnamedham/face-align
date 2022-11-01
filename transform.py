@@ -6,7 +6,7 @@ from collections import namedtuple
 
 
 Coord = namedtuple('Coord', 'x y')
-RESIZE_H_W = (1080, 1980)
+RESIZE_H_W = (1080, 1920)
 
 
 class Template:
