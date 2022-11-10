@@ -7,6 +7,9 @@ Make sure root has:
 - `input/` contains all input imgs as jpgs
 - `output/` will contain the algined frames as jpgs
 
-To run: `python3.10 main.py`
+To run:
+```
+$ python3.10 main.py
+```
 
 `output.mp4` will be output into root
